@@ -1,0 +1,141 @@
+/*header, .logo, .nav-links{
+	border: 1px solid red;
+}*/
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+.block1 {
+	background-image: url(/Users/leighhantho/Desktop/Image/wot-masthead-dark.png);
+	width: 100%;
+	background-size: cover;
+}
+
+header {
+	width: 100%;
+	height: 126px;
+}
+
+.nav-bar {
+	margin: 0 auto;
+	width: 925px;
+}
+
+.logo {
+	height: 75px;
+	width: 225px;
+	padding-top: 40px;
+	display: inline-block;
+	float: left;
+}
+
+/*@media (min-width: 400px) {*/
+	.nav-links {
+		display: inline-block;
+		margin-left: 0 auto;
+		font-family: sans-serif;
+		float: right;
+		padding-top: 50px;
+	}
+/*}*/
+
+.nav-option {
+	margin: 10px;
+	text-decoration: none;
+	color: white;
+	text-align: right;
+	display: inline-block;
+}
+
+#your-digital {
+	font-size: 20px;
+	font-family: sans-serif;
+	text-align: center;
+	color: white;
+	margin-left: -600px;
+}
+
+#workshop {
+	color: white;
+	font-size: 100px;
+	font-family: sans-serif;
+	text-align: center;
+	margin-top: -100px;
+}
+
+#subtitle {
+	text-align: center;
+	font-size: 16px;
+	font-family: sans-serif;
+	color: white;
+	margin-top: -75px;
+	font-weight: bold;
+}
+
+div p span {
+	color: orange;
+}
+
+.green {
+	color: #B6CD35;
+}
+
+.icon-bar {
+	padding-bottom: 75px;
+	margin: 30px auto 0 auto;
+	min-width:950px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;	
+}
+
+.square-icon {
+	display: inline-block;
+	text-align: center;
+	min-width: 190px;
+	min-height: 192px;
+	margin:0 -2px;
+
+}
+
+.icon1 {
+	background-color: #2EC2A8;
+	order: 1;
+}
+.icon2 {
+	background-color: #40666D;
+	order: 2;
+}
+.icon3 {
+	background-color: #878787;
+	order: 3;
+}
+.icon4 {
+	background-color: #45C1CC;
+	order: 4;
+}
+.icon5 {
+	background-color: #BDD537;
+	order: 5;
+}
+
+.block2 {
+	background-color: #F0F0F0;
+}
+
+.block2 p {
+	font-size: 22px;
+	font-family: sans-serif;
+	margin-top: 60px;
+	margin-left: 300px;
+	margin-right: 300px;
+	text-align: center;
+	color: #40666D;
+}
+
+
+
